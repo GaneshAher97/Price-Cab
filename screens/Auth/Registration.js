@@ -118,24 +118,14 @@ export default class MobileVerification extends React.Component {
           </View> */}
 
           <View style={styles.section}>
-            <View style={{ marginBottom: 10 }}>
+            <View style={{ marginBottom: 10,top:38 }}>
               <Image
                 source={require("../../assets/register.png")}
                 style={{ width: "100%", height: 200 }}
               />
             </View>
-            {/* <View style={{ alignItems: "center" }}>
-              <Text
-                style={{
-                  fontSize: 25,
-                  fontWeight: "bold",
-                  marginBottom: 10,
-                }}
-              >
-                Welcome Back
-              </Text>
-            </View> */}
-            <View style={{ alignItems: "center" }}>
+          
+            <View style={{ alignItems: "center",top:40}}>
 
               <Text
                 style={{
@@ -148,7 +138,7 @@ export default class MobileVerification extends React.Component {
 
             </View>
 
-            <View style={{ marginTop: 10 }}>
+            <View style={{ marginTop: 50 }}>
 
               {/* <Text style={styles.buttonText}>Enter Mobile No. or Email Id</Text> */}
               <View style={styles.textInput}>
@@ -309,7 +299,7 @@ const styles = StyleSheet.create({
   },
 
   button: {
-    marginTop: 20,
+    marginTop: 60,
     paddingVertical: 15,
     backgroundColor: '#F6FA00',
     borderRadius: 5,
