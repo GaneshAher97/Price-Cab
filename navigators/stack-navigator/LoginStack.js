@@ -5,9 +5,23 @@ import OtpVerification from "../../screens/Auth/OtpVerification";
 import ForgotPass from "../../screens/Auth/ForgotPass";
 import Signup from "../../screens/Auth/Signup";
 import Registration from '../../screens/Auth/Registration';
+import DrivingLicense from "../../components/DrivingLicense";
+import SelfieWithId from "../../components/SelfieWithId";
+import DriverVehicleAdd from "../../components/DriverVehicleAdd";
+import DriverVedit from "../../components/DriverVedit";
+import DriverRulesTermService from "../../components/DriverRulesTermService";
+import VehicleInfo from "../../components/VehicleInfo";
+import RegistrationCertificate from "../../components/RegistrationCertificate";
+import Refferal from "../../components/Refferal";
+
+
+
+
 import StackNavigation from "./StackNavigation";
 import { overlay } from "react-native-paper";
 import Vehicle from "../../screens/Vehicle";
+import DriverOnlineReg from "../../components/DriverOnlineReg";
+
 // import Selfie from "../../screens/Selfie"
 
 
@@ -64,6 +78,87 @@ const LoginStack = () => {
         name="Registration"
         component={Registration}
       />
+         <Stack.Screen
+        options={{
+          title: "",
+          headerShown: false,
+        }}
+        name="DriverOnlineReg"
+        component={DriverOnlineReg}
+      />
+       <Stack.Screen
+        options={{
+          title: "",
+          headerShown: false,
+        }}
+        name="DrivingLicense"
+        component={DrivingLicense}
+      />
+        <Stack.Screen
+        options={{
+          title: "",
+          headerShown: false,
+        }}
+        name="SelfieWithId"
+        component={SelfieWithId}
+      />
+        <Stack.Screen
+        options={{
+          title: "",
+          headerShown: false,
+        }}
+        name="DriverVehicleAdd"
+        component={DriverVehicleAdd}
+      />
+      <Stack.Screen
+        options={{
+          title: "",
+          headerShown: false,
+        }}
+        name="DriverVedit"
+        component={DriverVedit}
+      />
+
+     <Stack.Screen
+        options={{
+          title: "",
+          headerShown: false,
+        }}
+        name="DriverRulesTermService"
+        component={DriverRulesTermService}
+      />
+      <Stack.Screen
+        options={{
+          title: "",
+          headerShown: false,
+        }}
+        name="RegistrationCertificate"
+        component={RegistrationCertificate}
+      />
+
+    <Stack.Screen
+        options={{
+          title: "",
+          headerShown: false,
+        }}
+        name="VehicleInfo"
+        component={VehicleInfo}
+      />
+     
+      <Stack.Screen
+        options={{
+          title: "",
+          headerShown: false,
+        }}
+        name="Refferal"
+        component={Refferal}
+      />
+
+
+    
+
+
+
      <Stack.Screen
         options={{
           title: "",
@@ -72,6 +167,9 @@ const LoginStack = () => {
         name="Vehicle"
         component={Vehicle}
       />
+
+
+      
 
        {/* <Stack.Screen
         options={{

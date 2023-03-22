@@ -67,7 +67,7 @@ export default class MobileVerification extends React.Component {
   };
 
   sendVerification = () => {
-    this.props.navigation.navigate("Vehicle", {
+    this.props.navigation.navigate("DriverOnlineReg", {
       phn: this.state.phoneNumber,
     });
   };
@@ -257,6 +257,7 @@ export default class MobileVerification extends React.Component {
 
 
           </View>
+          
 
         </ScrollView>
       </KeyboardAvoidingView>
