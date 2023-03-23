@@ -13,16 +13,17 @@ import DriverRulesTermService from "../../components/DriverRulesTermService";
 import VehicleInfo from "../../components/VehicleInfo";
 import RegistrationCertificate from "../../components/RegistrationCertificate";
 import Refferal from "../../components/Refferal";
-
-
-
-
 import StackNavigation from "./StackNavigation";
 import { overlay } from "react-native-paper";
 import Vehicle from "../../screens/Vehicle";
 import DriverOnlineReg from "../../components/DriverOnlineReg";
+import DriverRulesTermLicense from "../../components/DriverRulesTermLicense";
+import DriverRulesTermPrivacyPolicy from "../../components/DriverRulesTermPrivacyPolicy";
+import DriverRefferalEarnEB from "../../components/DriverRefferalEarnEB";
 
-// import Selfie from "../../screens/Selfie"
+
+
+
 
 
 const Stack = createStackNavigator();
@@ -135,6 +136,8 @@ const LoginStack = () => {
         name="RegistrationCertificate"
         component={RegistrationCertificate}
       />
+    
+     
 
     <Stack.Screen
         options={{
@@ -154,11 +157,32 @@ const LoginStack = () => {
         component={Refferal}
       />
 
+<Stack.Screen
+        options={{
+          title: "",
+          headerShown: false,
+        }}
+        name="DriverRulesTermLicense"
+        component={DriverRulesTermLicense}
+      />
 
-    
-
-
-
+<Stack.Screen
+        options={{
+          title: "",
+          headerShown: false,
+        }}
+        name="DriverRulesTermPrivacyPolicy"
+        component={DriverRulesTermPrivacyPolicy}
+      />
+       <Stack.Screen
+        options={{
+          title: "",
+          headerShown: false,
+        }}
+        name="DriverRefferalEarnEB"
+        component={DriverRefferalEarnEB}
+      />
+ 
      <Stack.Screen
         options={{
           title: "",
@@ -171,14 +195,7 @@ const LoginStack = () => {
 
       
 
-       {/* <Stack.Screen
-        options={{
-          title: "",
-          headerShown: false,
-        }}
-        name="Selfie"
-        component={Selfie}
-      /> */}
+      
       
 
       

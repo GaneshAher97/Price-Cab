@@ -96,14 +96,6 @@ import {
         </View>
   
   
-  
-  
-  
-  
-  
-  
-  
-  
         <View style={{
   
           width: 322,

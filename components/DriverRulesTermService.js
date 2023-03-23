@@ -6,7 +6,10 @@ const DriverRulesTermService = () => {
     return (
         <View style={Styles.Container}>
             <Text style={Styles.ServiceR}>
+
+                
                 Service Rules
+               
 
             </Text>
             <View style={Styles.Sub}>

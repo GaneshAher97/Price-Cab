@@ -95,7 +95,7 @@ import {
   
   
   
-        <TouchableOpacity onPress={()=>{navigation.navigate("DriverOnlineReg")}}
+        <TouchableOpacity onPress={()=>{navigation.navigate("DriverRulesTermPrivacyPolicy")}}
         style={{ position: 'absolute', width: 330, height: 45, left: 15, top: 450, backgroundColor: '#F6FA00', borderRadius: 5 }}>
           <Text style={{ fontWeight: '700', lineHeight: 25, width: 318, height: 38, fontSize: 15, textAlign: 'center', alignItems: 'center', top: 10, color: "black" }}>
   
@@ -105,8 +105,17 @@ import {
           </TouchableOpacity>
   
   
-        <TouchableOpacity onPress={()=>{navigation.navigate("DriverOnlineReg")}}
+        <TouchableOpacity onPress={()=>{navigation.navigate("DriverRulesTermLicense")}}
          style={{ position: 'absolute', width: 330, height: 45, left: 15, top: 520, backgroundColor: '#E0E0E0', borderRadius: 5 }}>
+          <Text style={{ fontWeight: '700', lineHeight: 25, width: 318, height: 38, fontSize: 15, textAlign: 'center', alignItems: 'center', top: 10, color: "black" }}>
+  
+            Skip
+  
+          </Text>
+          </TouchableOpacity>
+
+          <TouchableOpacity onPress={()=>{navigation.navigate("DriverRefferalEarnEB")}}
+         style={{ position: 'absolute', width: 330, height: 45, left: 15, top: 620, backgroundColor: '#E0E0E0', borderRadius: 5 }}>
           <Text style={{ fontWeight: '700', lineHeight: 25, width: 318, height: 38, fontSize: 15, textAlign: 'center', alignItems: 'center', top: 10, color: "black" }}>
   
             Skip
